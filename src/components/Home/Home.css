@@ -1,0 +1,185 @@
+/* CSS for navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+.navbar .logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-right: 20px;
+}
+
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* CSS for slideshow */
+.slideshow-container {
+  position: relative;
+  height: 400px;
+}
+
+.slide {
+  /* display: none; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nav_links{
+    cursor: pointer;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.slide-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slide-text p {
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.slide-text a {
+  font-family: 'Playfair Display SC', serif;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.car-page{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  z-index: -10;
+}
+
+.car-admin-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.5) 0px 0px 0px 1px;
+  width: 250px;
+  height: 350px;
+  border-radius: 7.5px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.admin-img{
+  height: 120px;
+}
+/* Home.css */
+
+/* Styles for the about section */
+.about-section {
+  background-image: url('https://res.cloudinary.com/dp4xulfvi/image/upload/v1686675751/lamborghini-5000x3000-11189_qrcitz.jpg');
+  background-size: cover; 
+  /* background-color: rgb(255, 255, 255); */
+  padding: 30px;
+  margin-top: 300px;
+  display: flex;
+  font-weight: 900;
+ /* padding-bottom: 40px; */
+  
+}
+
+.about-content {
+  /* max-width: 700px; */
+  height: 90%;
+  margin: 0 auto;
+  margin-block-start: 200px;
+  margin-left: 300px;
+
+}
+
+.about-content h2 {
+  font-family: 'Times New Roman', Times, serif;
+  /* font-size: 25px; */
+  font-weight: bold ;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.about-content p {
+
+
+  /* -webkit-font-feature-settings:"c2cs"; */
+  text-align: center;
+  font-size: 18px;
+  color:  rgb(255, 255, 255);
+  line-height: 1.5;
+  font-weight: bold;
+  margin-left: 500px;
+}
+
+/* Styles for the contact section */
+.contact-section {
+  background-image: url('https://res.cloudinary.com/dp4xulfvi/image/upload/v1686675948/pexels-torsten-dettlaff-70912_vyavwd.jpg');
+  background-color: #3d3d3d;
+  padding: 50px;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.contact-content h2 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  
+}
+
+.contact-content p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.contact-content p:last-child {
+  margin-bottom: 0;
+}

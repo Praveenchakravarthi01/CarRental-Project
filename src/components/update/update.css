@@ -1,0 +1,27 @@
+.update-cont{
+    /* border-radius: 6px; */
+    display: flex;
+    justify-content: center;
+     height:81vh; 
+    width: 500px;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    padding: 15px 15px;
+
+}
+#out{
+    
+    height: 25px;
+    width: 350px;
+    border-radius: 6px;
+    justify-content: center;
+
+}
+.update-full-container
+{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,96 @@
+.container {
+  width: 480px;
+  margin-right: 100px;
+  height: 80vh;
+  border-radius: 10px;
+}
+.signup_wrapper{
+  font-family: 'Montserrat', sans-serif;
+    background-image:url("https://res.cloudinary.com/dp4xulfvi/image/upload/v1686083538/erik-mclean-ZRns2R5azu0-unsplash_ssvwed.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: end; 
+    
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  height: 95vh;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* .form-group {
+  margin-bottom: 25px;
+} */
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+}
+.form-group input[type="text"] {
+  margin-bottom: 25px;
+  width: 100%;
+  /* padding: 12px; */
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-group input[type="password"]
+ {
+  width: 100%;
+  /* padding: 12px; */
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.form-group input[type="number"] {
+  width: 94%;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.card button {
+  width: 94%;
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  margin-right: 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@200;400&family=Playfair+Display+SC&display=swap');
+body {
+  margin: 0;
+  font-family: "Montserrat";
+
+}
+
+.table th
+{
+  background-color:#33568b ;
+  color: white;
+}
